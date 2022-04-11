@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "ffce2b4df61bc091",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef2bb6583c649ff0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "threads.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "616bc8b3d907e881",
+    "type": "split",
+    "children": [
+      {
+        "id": "f05f931d996e5f59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff820d81b2a5ffd4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "34121098aa361bc3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8d98334834ab8fd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa57962cb875c05a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48c47bbbe7087b60",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "threads.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ef2bb6583c649ff0",
+  "lastOpenFiles": [
+    "threads.md",
+    "sockets.md",
+    "auth.md",
+    "services.md",
+    "server.md",
+    "protocol.md",
+    "packets.md",
+    "objective.md",
+    "network.md",
+    "load.md"
+  ]
+}
