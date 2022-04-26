@@ -22,11 +22,20 @@ POSIX.1 specifies a set of interfaces (functions, header files) for threaded pro
 The POSIX thread libraries are a standards base thread API for C/C++. It allows one to spawn a new concurrent process flow. A thread is spawned by defining a function and its arguments
 which will be processed in the thread. Thread operations include thread creation, termination, synchronization (joins, blocking), scheduling, data management and process interaction.
 
+## Thread Pool
+Creating and destroying new threads can be time consuming and may slow the performance of a heavy application if it has to be done to handle every request.
+
+A thread pool is a collection of pre-initialized threads. It facilitates the execution of N number of tasks using the same threads. If there are more tasks than threads, then tasks need to wait in a queue like structure. When any thread completes its execution, it can pickup a new task from the queue and execute it.
+
 ## Thread Synchronization
 **From APUE - Thread Synchronization 11.6**
 When multiple threads share the same memory, we need to make sure that each thread sees a consistent view of its data. If each thread uses variables that other threads don't read or modify, no consistency problems will exist. In the other hand, when a thread can modify a variable that is accessed by another thread, weed to synchronize the threads execution to ensure that they don't use and invalid value when accessing the shared memory space.
 
-TODO: more synchronization problems
+### Critical Section
+Critical section is any piece of code that has the possibility of being executed concurrently by more than one thread of the application and exposes any shared data or resources used by the application for access.
+
+### Race Conditions
+Race conditions happen when threads run through critical sections without thread synchronization. The threads “race” through the critical section to write or read shared resources and depending on the order in which threads finish the “race”, the program output changes. In a race condition, threads access shared resources or program variables that might be worked on by other threads at the same time causing the application data to be inconsistent. These can be avoided with proper thread synchronization within critical sections by using techniques like locks, atomic variables, and message passing.
 
 ### Mutexes
 **From APUE - Mutexes 11.6.1**
