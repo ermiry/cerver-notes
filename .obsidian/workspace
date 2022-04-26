@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "threads.md",
+            "file": "linux.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8d98334834ab8fd2",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "threads.md",
+                "file": "linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "ef2bb6583c649ff0",
   "lastOpenFiles": [
+    "linux.md",
+    "protocol.md",
+    "server.md",
+    "services.md",
     "threads.md",
+    "resources.md",
     "sockets.md",
     "auth.md",
-    "services.md",
-    "server.md",
-    "protocol.md",
     "packets.md",
-    "objective.md",
-    "network.md",
-    "load.md"
+    "objective.md"
   ]
 }
