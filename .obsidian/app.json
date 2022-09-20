@@ -2,5 +2,5 @@
   "legacyEditor": false,
   "showLineNumber": true,
   "spellcheck": true,
-  "readableLineLength": false
+  "readableLineLength": true
 }
