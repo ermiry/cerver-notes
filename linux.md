@@ -34,6 +34,9 @@ Code executed by the system runs on CPUs in 1 of 2 modes: kernel mode or user mo
 ## Why use Linux?
 Linux has evolved into one of the most reliable computer ecosystems on the planet. Combine that reliability with zero cost of entry and you have the perfect solution for a desktop platform.
 
+**From The Linux Foundation**
+The Linux kernel is one of the largest and most successful open-source projects that has ever come about. The huge rate of change and number of individual contributors show that it has a vibrant and active community, constantly causing the evolution of the kernel in response to number of different environments it is used in.
+
 ### Open Source
 **From linux.com**
 Linux is distributed under an open source license. Open source follows these key tenants:
@@ -45,9 +48,35 @@ Linux is distributed under an open source license. Open source follows these key
 **From redhat.com**
 Linux is a free, open source operating system, released under the GNU General Public License (GPL). Anyone can run, study, modify, and redistribute the source code, or even sell copies of their modified code, as long as they do so under the same license. Linux has become the largest open sources software project in the world. Professional and hobbyist programmers from around the world contribute to the Linux kernel, adding features, finding and fixing bugs and security flaws, and providing new ideas—all while sharing their contributions back to the community.
 
-## Linux Networking
+## Linux Distribution
+A Linux distribution is a version of the open source Linux OS that is packaged with other components, like an installation program, management tools, a desktop environment, and multiple user related applications.
 
-General Linux Concepts
+**From TechTarget**
+Linux distributions are often easier for users to deploy than the traditional open source version of Linux. This is because most distributions eliminate the need for users to manually compile a complete Linux operating system from source code, and because they are often supported by a specific vendor.
+
+**Erick Salas**
+Multiple Linux distributions are available today, some have specific targets like desktops, services, mobile, and even IOT devices. Some distributions such as Fedora and Red Hat Enterprise Linux from Red Hat, openSUSE from SUSE, Ubuntu from Canonical, and Oracle Linux from Oracle, are commercial, while others, such as Debian and Slackware, are community-developed. Some commercial distributions vendors may charge users for services like support or custom development, although open source licensing prohibits charging for the open source software itself.
+
+**From TechTarget**
+A Linux distribution also includes a package management system, which is used to install, uninstall and manage software packages. These systems also allow for package searches, automatic software upgrades and verification that all package dependencies are fulfilled.
+
+## Linux in the Cloud
+**From The Linux Foundation**
+Linux runs 90 percent of the public cloud workload, 82 percent of the world's smartphones, 62 percent of the embedded market, and 99 percent of the supercomputer market.
+
+**From redhat.com**
+Linux has become the standard for highly available, reliable, and critical workloads in data centers and cloud computing environments. It supports multiple use cases, target systems, and devices, depending on user needs and workloads. Every major public cloud provider, like Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and Alibaba Cloud, offers multiple distributions of Linux in their marketplaces.
+
+**From Alibaba Cloud**
+Many enterprises have adopted Linux based systems as they are cost-effective, secure, scalable, open-source, and community optimized.
+
+- **Consistent Operating Model:** No matter what version or distribution of Linux is used, whether it is on a very powerful machine or in an embedded machine, the general operation of Linux is the same. Things like process management, basic networking capabilities, command line execution are very similar.
+- **Scalability:** Linux is able to very easily scale to up and down based on the available resources, which is great when developing distributed applications.
+- **Networking Capabilities:** Linux has developed a string set of network capabilities, including networking tools for providing and managing to route, bridging, DNS, DHCP, network troubleshooting, virtual networking, and network monitoring.
+
+## Linux Networking
+**From Linux Kernel Labs**
+The development of the Internet has led to an exponential increase in network applications and, as a consequence, to increasing the speed and productivity requirements of an operating system's networking subsystem. The networking subsystem is not an essential component of an operating system kernel (the Linux kernel can be compiled without networking support). It is, however, quite unlikely for a computing system (or even an embedded device) to have a non-networked operating system due to the need for connectivity. Modern operating systems use the TCP/IP stack. Their kernel implements protocols up to the transport layer, while application layer protocols are typically implemented in user space (HTTP, FTP, SSH, etc.).
 
 Advantages of using Linux against other OS to create network applications?
 TODO:
@@ -55,7 +84,7 @@ TODO:
 How does Linux handles networking?
 TODO:
 
-File Descriptors
+## File Descriptors
 
 Possible ideas to be covered in paper:
 - Why everything in Linux is handled as a file?
